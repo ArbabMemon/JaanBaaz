@@ -47,19 +47,18 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ _______  ______  _________ ______  
-(  ___  )(  ___ \ \__   __/(  __  \ 
-| (   ) || (   ) )   ) (   | (  \  )
-| (___) || (__/ /    | |   | |   ) |
-|  ___  ||  __ (     | |   | |   | |
-| (   ) || (  \ \    | |   | |   ) |
-| )   ( || )___) )___) (___| (__/  )
-|/     \||/ \___/ \_______/(______/ 
+logo = """ 
+\033[1;92m╱╱╭╮╱╱╱╱╱╱╱╱╭━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╭╮╱╱╱╱╭╮ 
+\033[1;93m╱╱┃┃╱╱╱╱╱╱╱╱┃╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱┃┃╱╱╱╱┃┃
+\033[1;94m╱╱┃┣━━┳━━┳━╮┃╰╯╰┳━━┳━━┳━━━╮╱╱┃┃╱┃┣━┫╰━┳━━┫╰━╮
+\033[1;95m╭╮┃┃╭╮┃╭╮┃╭╮┫╭━╮┃╭╮┃╭╮┣━━┃┣━━┫╰━╯┃╭┫╭╮┃╭╮┃╭╮┃
+\033[1;96m┃╰╯┃╭╮┃╭╮┃┃┃┃╰━╯┃╭╮┃╭╮┃┃━━╋━━┫╭━╮┃┃┃╰╯┃╭╮┃╰╯┃
+\033[1;97m╰━━┻╯╰┻╯╰┻╯╰┻━━━┻╯╰┻╯╰┻━━━╯╱╱╰╯╱╰┻╯╰━━┻╯╰┻━━╯
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mInstagram \033[1;93m: \033[1;92mAb.id6644
-\033[1;96mFacebook  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Abid6t
+\033[1;96mAuthor  \033[1;93m: \033[1;92mArbabMemon
+\033[1;96mContact \033[1;94m: \033[1;92m03003023263
+\033[1;96mFacebook  \033[1;95m: \033[1;92mArbabMemon
+\033[1;96mGithub \033[1;96m: \033[1;92mhttps://github.com/JaanBaaz
 \033[1;91m======================================="""
 
 def tik():
@@ -80,15 +79,15 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mInstagram \033[1;93m: \033[1;92mAb.id6644
-\033[1;96mFacebook  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Abid6t
+\033[1;96mAuthor  \033[1;93m: \033[1;92mArbab Memon
+\033[1;96mContact \033[1;93m: \033[1;92m03003023263
+\033[1;96mFacebook  \033[1;93m: \033[1;92mArbabMemon
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/JaanBaaz
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "Abid6t"
-CorrectPassword = "Abid"
+CorrectUsername = "JaanBaaz"
+CorrectPassword = "Arbab"
 
 loop = 'true'
 while (loop == 'true'):
@@ -100,10 +99,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
+            os.system('xdg-open https://www.facebook.com/profile.php?id=100013198384353')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100013198384353')
 
 def login():
 	os.system('clear')
@@ -192,7 +191,7 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
+	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Crack On Facebook"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
 	pilih()
 
